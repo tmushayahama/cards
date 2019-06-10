@@ -1,0 +1,23 @@
+name: flutter_cards
+description: A new Flutter project.
+
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+
+dependencies:
+  meta: ">=1.1.0 <2.0.0"
+  equatable: ^0.2.0
+  flutter_bloc: ^0.15.0
+  flutter:
+    sdk: flutter
+
+dependency_overrides:
+  cards_app_core:
+    path: ../cards_app_core
+  cards_repository_core:
+    path: ../cards_repository_core
+  cards_repository_simple:
+    path: ../cards_repository_simple
+flutter:
+  uses-material-design: true
+

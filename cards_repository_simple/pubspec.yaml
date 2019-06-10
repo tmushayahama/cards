@@ -1,0 +1,17 @@
+name: cards_repository_simple
+description: An app-agnostic data source that can be used by all implementations
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cards_repository_core:
+    path: ../cards_repository_core
+  rxdart: ^0.22.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^3.0.0
